@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manual Degree Planner</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script>
+    document.cookie = "lastVisited=" + window.location.pathname + "; path=/";
+    console.log(document.cookie); 
+  </script>
+
+  <h1>Manual Planner</h1>
+
+  <div class="section-header">
+    <h2>
+      Drag and drop major requirements into the semester boxes – click on the image in the upper right corner to view
+      the CS majors' offering sequence!
+    </h2>
+  </div>
+
+  <div class="image-wrapper">
+    <img src="degree_sequence.png" alt="Degree Sequence Image" class="degree-sequence" id="sequence-img">
+  </div>
+
+  <div id="image-modal" class="modal">
+    <img id="modal-img" src="degree_sequence.png" alt="Full Degree Sequence">
+  </div>
+
+  <div id="controls">
+    <button id="clear-button">Clear Plan</button>
+  </div>
+
+  <div id="course-list">
+    <h2>Major Requirements</h2>
+    <div id="courses"></div>
+  </div>
+
+  <div id="semesters">
+    <div class="semester" data-semester="Fall 1st Year">
+      <h3>Year 1 - Fall</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+    <div class="semester" data-semester="Spring 1st Year">
+      <h3>Year 1 - Spring</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+    <div class="semester" data-semester="Fall 2nd Year">
+      <h3>Year 2 - Fall</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+    <div class="semester" data-semester="Spring 2nd Year">
+      <h3>Year 2 - Spring</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+    <div class="semester" data-semester="Fall 3rd Year">
+      <h3>Year 3 - Fall</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+    <div class="semester" data-semester="Spring 3rd Year">
+      <h3>Year 3 - Spring</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+    <div class="semester" data-semester="Fall 4th Year">
+      <h3>Year 4 - Fall</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+    <div class="semester" data-semester="Spring 4th Year">
+      <h3>Year 4 - Spring</h3>
+      <div class="course-container"></div>
+      <div class="credit-total">Total Credits: 0</div>
+    </div>
+  </div>
+
+  <script src="manual_planner.js"></script>
+</body>
+
+</html>

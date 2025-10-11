@@ -1,0 +1,175 @@
+[
+  {
+    "code": "DS/MA1020CCM",
+    "name": "Applied Statistics I",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "both"
+      },
+      {
+        "semester": "Spring",
+        "yearType": "both"
+      }
+    ]
+  },
+  {
+    "code": "CS1040",
+    "name": "Introduction to Computer Programming I",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "both"
+      },
+      {
+        "semester": "Spring",
+        "yearType": "both"
+      }
+    ]
+  },
+  {
+    "code": "CS2040",
+    "name": "Introduction to Computer Programming II",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Spring",
+        "yearType": "both"
+      }
+    ]
+  },
+  {
+    "code": "CS2071",
+    "name": "Languages and Data Structures",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "both"
+      }
+    ]
+  },
+  {
+    "code": "MA2400CCD",
+    "name": "Discrete Mathematics",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Spring",
+        "yearType": "both"
+      }
+    ]
+  },
+  {
+    "code": "CS3015",
+    "name": "Computer Networks",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "even"
+      }
+    ]
+  },
+  {
+    "code": "CS3032",
+    "name": "Operating Systems",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Spring",
+        "yearType": "both"
+      }
+    ]
+  },
+  {
+    "code": "CM/CS3048",
+    "name": "Human/Computer Interaction",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "odd"
+      }
+    ]
+  },
+  {
+    "code": "CS/MA3050CCR",
+    "name": "Research and Writing in Computer Science & Mathematics",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "even"
+      }
+    ]
+  },
+  {
+    "code": "CS3051",
+    "name": "Web Applications",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Spring",
+        "yearType": "odd"
+      }
+    ]
+  },
+  {
+    "code": "CS3053",
+    "name": "Software Engineering",
+    "credits": 4,
+    "prerequisites": [
+      "CS1040"
+    ],
+    "offering": [
+      {
+        "semester": "Spring",
+        "yearType": "even"
+      }
+    ]
+  },
+  {
+    "code": "CS3068",
+    "name": "Database Applications",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "even"
+      }
+    ]
+  },
+  {
+    "code": "CS4098/CS4095",
+    "name": "Internship/Senior Project",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Spring",
+        "yearType": "both"
+      },
+      {
+        "semester": "Fall",
+        "yearType": "both"
+      }
+    ]
+  },
+  {
+    "code": "CS3xxx",
+    "name": "3000 Level CS course or higher",
+    "credits": 4,
+    "offering": [
+      {
+        "semester": "Fall",
+        "yearType": "both"
+      },
+      {
+        "semester": "Spring",
+        "yearType": "both"
+      }
+    ]
+  }
+]
