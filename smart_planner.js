@@ -1,3 +1,6 @@
+// Sprint 4: final integration and stability pass
+
+
 let courses = [];
 
 window.onload = async () => {
